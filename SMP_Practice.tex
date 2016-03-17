@@ -73,8 +73,8 @@
    		\item Не нужно вручную настраивать шрифты, размер текста, высоту строк или читаемость текста.
    		\item Легко скопировать структуру документа в другой документ, в WYSIWYG программах не всегда ясно, какое именно было использовано форматирование.
    		\item Разметка, шрифты, таблицы и т.д. согласованы во всём документе.
-    	\itemЛегко набирать математические формулы.
-    	\itemЛегко создаются алфавитные указатели, сноски, ссылки и библиографические списки.
+    	\item Легко набирать математические формулы.
+    	\item Легко создаются алфавитные указатели, сноски, ссылки и библиографические списки.
    		\item Так как исходный документ содержит просто текст, с помощью программных средств на любом языке программирования можно создать таблицы, рисунки, формулы и т.д.
 	\end{itemize}	
 	\textit{Недостатки:}
@@ -108,23 +108,23 @@
 		\subsubsection{Сравнению с другими системами контроля версий}
 		 	\textit{Достоинства:}
 				\begin{itemize}
-\itemНадежная система сравнения ревизий и проверки корректности данных, основанные на алгоритме хеширования Secure Hash Algorithm 1.
-\itemГибкая система ветвления проектов и слияния веток между собой.
-\itemНаличие локального репозитория, содержащего полную информацию обо всех изменениях, позволяет вести полноценный локальный контроль версий и заливать в главный репозиторий только полностью прошедшие проверку изменения.
-\itemВысокая производительность и скорость работы.
-\itemУдобный и интуитивно понятный набор команд.
-\itemМножество графических оболочек, позволяющих быстро и качественно вести работы с Git’ом.
-\itemВозможность делать контрольные точки, в которых данные сохраняются без дельта компрессии, а полностью. Это позволяет уменьшить скорость восстановления данных, так как за основу берется ближайшая контрольная точка, и восстановление идет от нее. Если бы контрольные точки отсутствовали, то восстановление больших проектов могло бы занимать часы.
-\itemШирокая распространенность, легкая доступность и качественная документация.
-\itemГибкость системы позволяет удобно ее настраивать и даже создавать специализированные контроля системы или пользовательские интерфейсы на базе git.
-\itemУниверсальный сетевой доступ с использованием протоколов http, ftp, rsync, ssh и др.\\
+\item Надежная система сравнения ревизий и проверки корректности данных, основанные на алгоритме хеширования Secure Hash Algorithm 1.
+\item Гибкая система ветвления проектов и слияния веток между собой.
+\item Наличие локального репозитория, содержащего полную информацию обо всех изменениях, позволяет вести полноценный локальный контроль версий и заливать в главный репозиторий только полностью прошедшие проверку изменения.
+\item Высокая производительность и скорость работы.
+\item Удобный и интуитивно понятный набор команд.
+\item Множество графических оболочек, позволяющих быстро и качественно вести работы с Git’ом.
+\item Возможность делать контрольные точки, в которых данные сохраняются без дельта компрессии, а полностью. Это позволяет уменьшить скорость восстановления данных, так как за основу берется ближайшая контрольная точка, и восстановление идет от нее. Если бы контрольные точки отсутствовали, то восстановление больших проектов могло бы занимать часы.
+\item Широкая распространенность, легкая доступность и качественная документация.
+\item Гибкость системы позволяет удобно ее настраивать и даже создавать специализированные контроля системы или пользовательские интерфейсы на базе git.
+\item Универсальный сетевой доступ с использованием протоколов http, ftp, rsync, ssh и др.\\
 				\end{itemize}
 			\textit{Недостатки:}
 				\begin{itemize}
 \item Unix – ориентированность. На данный момент отсутствует зрелая реализация Git, совместимая с другими операционными системами.
-\itemВозможные (но чрезвычайно низкие) совпадения хеш - кода отличных по содержанию ревизий.
-\itemНе отслеживается изменение отдельных файлов, а только всего проекта целиком, что может быть неудобно при работе с большими проектами, содержащими множество несвязных файлов.
-\itemПри начальном (первом) создании репозитория и синхронизации его с другими разработчиками, потребуется достаточно длительное время для скачивания данных, особенно, если проект большой, так как требуется скопировать на локальный компьютер весь репозиторий. 
+\item Возможные (но чрезвычайно низкие) совпадения хеш - кода отличных по содержанию ревизий.
+\item Не отслеживается изменение отдельных файлов, а только всего проекта целиком, что может быть неудобно при работе с большими проектами, содержащими множество несвязных файлов.
+\item При начальном (первом) создании репозитория и синхронизации его с другими разработчиками, потребуется достаточно длительное время для скачивания данных, особенно, если проект большой, так как требуется скопировать на локальный компьютер весь репозиторий. 
 				\end{itemize}
 		\subsubsection{Основные команды}
 		\textit{add:} Добавляет содержимое рабочей директории в индекс для последующего коммита.\\
@@ -152,7 +152,6 @@
 \newpage
 \section{Перечень обучающих источников}
 	В ходе данной работы необходимо найти современные (новее 2010 года) материалы, оказывающие поддержку в изучении параллельных вычислений в системах с общей памятью. Все источники должны быть разбиты на иностранные и русскоязычные, а внутри этих групп на платные и бесплатные книги, журналы и онлайн-курсы. Выполнить внутри каждой группы ранжирование источников по авторитетности, а также сформулировать данный критерий на основе различных показателей материалов.
-\newpage
 	\subsection{Критерий сравнения}
 	Так как все исследуемые материалы имеют различные особенности, то и критерии для сравнения и сортировки будут различными. Каждый критерий формируется на основе различных численных значений, играющих важную роль в оценке авторитетности данного материала. Среди них:
 	\begin{itemize}
@@ -182,7 +181,7 @@
 			В итоге, критерий представляется десятичной дробью, где: 
 				\begin{itemize}
 					\item \textit{Целая часть} ($10*C*A$)\\
-						Оценка на Amazon.com выступает в роли коэффициента количества цитирования. Если оценка отсутствует, коэффициент принимается равным 3-м, так как это среднее возможное значение оценки(т. е. оценка выше увеличит кол-во цитирования). Умножение на 10 необходимо, чтобы произведение оставалось целым числом.
+						Оценка на Amazon.com выступает в роли коэффициента количества цитирования. Если оценка отсутствует, коэффициент принимается равным 3-м, так как это среднее возможное значение оценки(т. е. оценка выше увеличит значение кол-ва цитирования). Умножение на 10 необходимо, чтобы произведение оставалось целым числом.
 					\item \textit{Дробная часть} ($g / 10^n$)\\
 						Деление на степень десяти необходимо, чтобы сместить g-Индекс в дробную часть критерия. Является дополнительным, учитывается только в случае, если целые части равны.
 				\end{itemize}
@@ -193,25 +192,25 @@
 \hline
 Название & Автор & Цитиро-вание & Амазон & g-index & Крите-рий \\\hline
 
-The Art of Multiprocessor Programming, Revised Reprint 1st Edition & 
+\href{http://www.amazon.com/The-Multiprocessor-Programming-Revised-Reprint/dp/0123973376}{The Art of Multiprocessor Programming, Revised Reprint 1st Edition} & 
 Maurice Herlihy,\newline Nir Shavit & 951 & 4.1 & 50 & 38991.5 \\\hline
 
-An Introduction to Parallel Programming 1st Edition &
+\href{http://www.amazon.com/Introduction-Parallel-Programming-Peter-Pacheco/dp/0123742609}{An Introduction to Parallel Programming 1st Edition} &
 Peter Pacheco & 196 & 4.0 & 35 & 7840.35 \\\hline
 
-Multicore Application Programming: for Windows, Linux, and Oracle Solaris (Developer's Library) 1st Edition &
+\href{http://www.amazon.com/Multicore-Application-Programming-Windows-Developers/dp/0321711378}{Multicore Application Programming: for Windows, Linux, and Oracle Solaris (Developer's Library) 1st Edition} &
 Darryl Gove & 33 & 4.5 & 13 & 1485.13 \\\hline
 
-Multicore and GPU Programming: An Integrated Approach 1st Edition &
+\href{http://www.amazon.com/Multicore-GPU-Programming-Integrated-Approach/dp/0124171370}{Multicore and GPU Programming: An Integrated Approach 1st Edition} &
 Gerassimos Barlas & 4 & 3.7 & 26 & 148.26 \\\hline
 
-Programming Models for Parallel Computing (Scientific and Engineering Computation) &
+\href{http://www.amazon.com/Programming-Computing-Scientific-Engineering-Computation/dp/0262528819}{Programming Models for Parallel Computing (Scientific and Engineering Computation)} &
 Pavan Balaji & - & - & 39 & 0.39 \\\hline
 
-Shared Memory Application Programming: Concepts and Strategies in Multicore Application Programming 1st Edition &
+\href{http://www.amazon.com/Shared-Memory-Application-Programming-Strategies/dp/012803761X}{Shared Memory Application Programming: Concepts and Strategies in Multicore Application Programming 1st Edition} &
 Victor Alessandrini & 0 & - & 18 & 0.18 \\\hline
 
-Multicore Software Development Techniques: Applications, Tips, and Tricks (Newnes Pocket Books) 1st Edition &
+\href{http://www.amazon.com/Multicore-Software-Development-Techniques-Applications/dp/0128009586}{Multicore Software Development Techniques: Applications, Tips, and Tricks (Newnes Pocket Books) 1st Edition} &
 Robert Oshana & - & - & 13 & 0.13 \\\hline
 				\end{longtable}
 			
@@ -220,19 +219,19 @@ Robert Oshana & - & - & 13 & 0.13 \\\hline
 \hline
 Название & Автор & Цитиро-вание & Амазон & g-index & Крите-рий \\\hline
 
-Parallel Programming: for Multicore and Cluster Systems 2nd ed. &
+\href{http://www.amazon.com/Parallel-Programming-Multicore-Cluster-Systems/dp/3642378005}{Parallel Programming: for Multicore and Cluster Systems 2nd ed.} &
 Thomas Rauber, \newline Gudula Rünger & 244 & 5 & 34 & 12200.34\\\hline
 
-Structured Parallel Programming: Patterns for Efficient Computation 1st Edition &
+\href{http://www.amazon.com/Structured-Parallel-Programming-Efficient-Computation/dp/0124159931}{Structured Parallel Programming: Patterns for Efficient Computation 1st Edition} &
 Michael McCool, James Reinders, Arch Robison & 162 & 4.7 & 50 & 7614.5\\\hline
 
-Masterkurs Parallele und Verteilte Systeme: Grundlagen und Programmierung von Multicore-Prozessoren, Multiprozessoren, Cluster, Grid und Cloud (German Edition) 2nd Edition &
+\href{http://www.amazon.com/Masterkurs-Parallele-Verteilte-Systeme-Multicore-Prozessoren/dp/383481671X}{Masterkurs Parallele und Verteilte Systeme: Grundlagen und Programmierung von Multicore-Prozessoren, Multiprozessoren, Cluster, Grid und Cloud (German Edition) 2nd Edition} &
 Günther Bengel, Christian Baun, Marcel Kunze, Karl-Uwe Stucky & 27 & - & 47 & 810.47\\\hline
 
-Parallel Computer Organization and Design 1st Edition &
+\href{http://www.amazon.com/Parallel-Computer-Organization-Design-Professor/dp/0521886759}{Parallel Computer Organization and Design 1st Edition} &
 Michel Dubois, Murali Annavaram, Per Stenström & 0 & 4.8 & 50 & 0.5\\\hline
 
-Parallel Computing for Data Science: With Examples in R, C++ and CUDA (Chapman \& Hall/CRC The R Series) &
+\href{http://www.amazon.com/Parallel-Computing-Data-Science-Examples/dp/1466587016}{Parallel Computing for Data Science: With Examples in R, C++ and CUDA (Chapman \& Hall/CRC The R Series)} &
 Norman Matloff & 0 & 3 & 31 & 0.31\\\hline
 
 				\end{longtable}
@@ -247,16 +246,16 @@ Norman Matloff & 0 & 3 & 31 & 0.31\\\hline
 \hline
 Название & Автор & Цитиро-вание & Амазон & g-index & Крите-рий \\\hline
 
-Introduction to Parallel Computing &
+\href{https://computing.llnl.gov/tutorials/parallel_comp}{Introduction to Parallel Computing} &
 Blaise Barney & 201 & - & 21 & 6030.21\\\hline
  
-Introduction to High-Performance Scientific Computing &
+\href{http://pages.tacc.utexas.edu/~eijkhout/istc/istc.html}{Introduction to High-Performance Scientific Computing} &
 Victor Eijkhout & 27 & 3.5 & 50 & 945.5\\\hline
 
-The Practice of Parallel Programming &
+\href{http://web.newsguy.com/sab123/tpopp}{The Practice of Parallel Programming} &
 Sergey Babkin & 3 & 4.5 & 2 & 135.02\\\hline
 
-Programming on Parallel Machines : GPU, Multicore, Clusters and More &
+\href{http://heather.cs.ucdavis.edu/parprocbook}{Programming on Parallel Machines : GPU, Multicore, Clusters and More} &
 Norm Matloff & 0 & - & 7 & 0.07 \\\hline
 				\end{longtable}
 			\end{flushleft}
@@ -269,16 +268,16 @@ Norm Matloff & 0 & - & 7 & 0.07 \\\hline
 				
 Название & Редактор & SNIP & SJR & Критерий \\\hline
 
-Transactions on Parallel and Distributed Systems &
+\href{https://www.computer.org/web/tpds}{Transactions on Parallel and Distributed Systems} &
 David A. Bader  & 3.892 & 2.017 & 5.909\\\hline
 
-Parallel Computing &
+\href{http://www.journals.elsevier.com/parallel-computing}{Parallel Computing} &
 Jeffrey Hollingsworth &2.141 & 1.232 & 3.373\\\hline
 
-Journal of Parallel and Distributed Computing &
+\href{http://www.journals.elsevier.com/journal-of-parallel-and-distributed-computing}{Journal of Parallel and Distributed Computing} &
 Viktor Prasanna & 1.991 & 1.093 & 3.084\\\hline
 
-Parallel Processing Letters &
+\href{http://www.worldscientific.com/loi/ppl}{Parallel Processing Letters} &
 Selim G. Akl & 1.453 & 0.499 & 1.952\\\hline
 				\end{longtable}
 			\end{flushleft}	
@@ -288,26 +287,26 @@ Selim G. Akl & 1.453 & 0.499 & 1.952\\\hline
 
 	\begin{flushleft}
 				Таблица 5
-				\begin{longtable}{|p{5.5cm}|p{5cm}|p{1.55cm}|p{1.55cm}|p{1.7cm}|}
+				\begin{longtable}{|p{5.5cm}|p{4cm}|p{1.55cm}|p{1.6cm}|p{1.7cm}|}
 \hline
 Название & Автор/Лектор & g-index & h-index & Крите-рий \\\hline
 
-Heterogeneous Parallel Programming &
+\href{https://ru.coursera.org/course/hetero}{Heterogeneous Parallel Programming} &
 Wen-mei W. Hwu & 50 & 50 & 100\\\hline
 
-Parallel Computing &
+\href{http://ocw.mit.edu/courses/mathematics/18-337j-parallel-computing-fall-2011}{Parallel Computing} &
 Alan Edelman & 50 & 38 & 88\\\hline
 
-Parallel Programming for Multicore &
+\href{http://www.cs.berkeley.edu/~yelick/cs194f07/main.html}{Parallel Programming for Multicore} &
 Kathy Yelick & 8 & 36 & 44\\\hline
 
-Multicore Programming &
+\href{http://soft.vub.ac.be/~tvcutsem/multicore}{Multicore Programming} &
 Tom Van Cutsem & 14 & 26 & 40\\\hline
 
-Parallel Programming for Multicore Machines Using OpenMP and MPI &
+\href{http://ocw.mit.edu/courses/earth-atmospheric-and-planetary-sciences/12-950-parallel-programming-for-multicore-machines-using-openmp-and-mpi-january-iap-2010}{Parallel Programming for Multicore Machines Using OpenMP and MPI} &
 Constantinos Evangelinos & 10 & 27 & 37\\\hline
 
-High Performance Scientific Computing &
+\href{https://www.coursera.org/course/scicomp}{High Performance Scientific Computing} &
 Randy LeVeque & 2 & 3 & 5\\\hline
 				\end{longtable}
 			\end{flushleft}
@@ -334,21 +333,26 @@ Randy LeVeque & 2 & 3 & 5\\\hline
 \hline
 Название & Автор & Цитиро-вание & g-index & Критерий \\\hline
 
-Технологии параллельного программирования MPI и OpenMP &
+\href{https://www.ozon.ru/context/detail/id/19898952}{Технологии параллельного программирования MPI и OpenMP} &
 Александр Антонов & 18 & 25 & 18.25\\\hline 
 
-Современные языки и технологии параллельного программирования &
+\href{https://www.ozon.ru/context/detail/id/19453470}{Современные языки и технологии параллельного программирования} &
 Виктор Гергель & 10 & 10 & 10.1\\\hline
 
-Инструменты параллельного программирования в системах с общей памятью &
+\href{https://www.ozon.ru/context/detail/id/7374160}{Инструменты параллельного программирования в системах с общей памятью} &
 Кирилл Корняков, Валентина Кустикова, Иосиф Мееров, Алексей Сиднев, Александр Сысоев, Александр Шишков & 8 & 12 & 8.12\\\hline
 
-Введение в параллельные методы решения задач. Учебное пособие &
+\href{https://www.ozon.ru/context/detail/id/23944160}{Введение в параллельные методы решения задач. Учебное пособие} &
 Михаил Якобовский & 7 & 4 & 7.04\\\hline
 
-Практикум по методам параллельных вычислений &
+\href{https://www.ozon.ru/context/detail/id/7374161}{Практикум по методам параллельных вычислений} &
 Александр Старченко, Евгений Данилкин, Валентина Николаева, Сергей Проханов & 3 & 23 & 3.23\\\hline
 
+\href{https://www.ozon.ru/context/detail/id/28338796}{Основы параллельного программирования. Учебное пособие} &
+Кирилл Богачев & 2 & 9 & 2.9 \\\hline
+
+\href{https://books.google.ru/books?id=9n7UkQEACAAJ&hl=ru&sa=X&ved=0ahUKEwi_zKeMs6HLAhXLiCwKHSjuBjQQ6AEIHDAA}{Вычисления на многопроцессорных компьютерах. Параллельные вычисления на основе технологии OpenMP: учебное пособие} &
+Алексей Геннадьевич Абрамов & 0 & 3 & 0.3 \\\hline
 				\end{longtable}
 \newpage	
 			\end{flushleft}
@@ -361,14 +365,9 @@ Randy LeVeque & 2 & 3 & 5\\\hline
 \hline
 Название & Автор & Цитиро-вание & g-index & Критерий \\\hline
 
-Основы параллельного программирования. Учебное пособие &
-Кирилл Богачев & 2 & 9 & 2.9 \\\hline
-
-Модели параллельного программирования &
+\href{http://pp-book.narod.ru/ppm-book.html}{Модели параллельного программирования} &
 Федотов Илья & 2 & 2 & 2.2 \\\hline
 
-Вычисления на многопроцессорных компьютерах. Параллельные вычисления на основе технологии OpenMP: учебное пособие &
-Алексей Геннадьевич Абрамов & 0 & 3 & 0.3 \\\hline
 
 				\end{longtable}
 			\end{flushleft}
@@ -393,22 +392,21 @@ Randy LeVeque & 2 & 3 & 5\\\hline
 \hline
 Название & Автор/Лектор & g-index & Среднее прос-мотров & Крите-рий \\\hline
 
-Высокопроизводительные вычисления для многопроцессорных многоядерных систем &
+\href{http://www.hpcc.unn.ru/?doc=489}{Высокопроизводительные вычисления для многопроцессорных многоядерных систем} &
 Гергель Виктор Павлович, Сысоев Александр Владимирович, Козинов Евгений Александрович, Лабутина Анна Андреевна & 15 & - & 15\\\hline
 
-Инструменты параллельного программирования в системах с общей памятью &
+\href{http://www.hpcc.unn.ru/?doc=444}{Инструменты параллельного программирования в системах с общей памятью} &
 Сысоев Александр Владимирович, Мееров Иосиф Борисович, Сиднев Алексей Александрович, Шишков Александр Валерьевич, Корняков Кирилл Владимирович, Кустикова Валентина Дмитриевна &
 12 & - & 12\\\hline
 
-Параллельное программирование &
+\href{https://www.lektorium.tv/course/23050 }{Параллельное программирование} &
 Евгений Калишенко, Алексей Злобин & 2 & 2416 & 2.2416\\\hline
 
-Параллельное программирование &
+\href{https://www.lektorium.tv/course/22757}{Параллельное программирование} &
 Роман Елизаров & 0 & 3174 & 0.3174 \\\hline
 
-Эффективные параллельные алгоритмы: методика BSP &
+\href{https://www.lektorium.tv/course/22913}{Эффективные параллельные алгоритмы: методика BSP} &
 Александр Тискин & 0 & 1573 & 0.1573 \\\hline
-
 
 				\end{longtable}
 			\end{flushleft}
